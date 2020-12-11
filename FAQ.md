@@ -4,7 +4,9 @@
 
 ### What is Rocky Linux ?
 
-Rocky Linux is a free and open source operating system based upon the Linux kernel. It is derived from the Red Hat Enterprise Linux (RHEL) distribution. 
+Rocky Linux is a free and open source operating system based upon the Linux kernel. 
+
+It is derived from the [Red Hat Enterprise Linux](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux)  (RHEL) distribution. Rocky Lnux
 
 ### What is the purpose of Rocky Linux ?
 
@@ -24,7 +26,7 @@ Rocky Linux does not contain Red Hat Enterprise Linux or Fedora Linux; nor does 
 
 ### Why another RHEL based distro ? Don't we have enough distros out there ?
 
-Yes. There are many Linux distributions based on the source code of [Red Hat Enterprise Linux](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux) (RHEL). You can see an overview [here](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux_derivatives). 
+Yes. There are many Linux distributions based on the source code of Red Hat Enterprise Linux (RHEL). You can see an overview [here](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux_derivatives). 
 
 Unfortunately, some of them are discontinued, some of them have closed communities and others are driven by private companies.
 
@@ -36,7 +38,7 @@ CentOS has recently shifted direction. CentOS announced on 2020-12-08 that they 
 
 This means CentOS Stream will provide continuous upgrades vs a planned release cycle. This means CentOS Stream may not be as stable as it used to be. This means we will no longer be able to use CentOS for our production environments.
  
-We believe continuous delivery is great, but we think that was Fedora's purpose and reason to be, no need for CentOS Stream. 
+We believe continuous delivery is great and Stream will play its part in strengthening the RHEL product and ecosystem, but it does not supplant what CentOS was, and the value it provided to the community at large. 
 
 We need what "old" CentOS was: a stable free and open source distro for our production environments. 
  
@@ -48,7 +50,9 @@ The name proposal came from Gregory Kurtzer, just some hours after the project s
 
 ### Why not naming it CentOS-ng Linux or something else ? Why not reusing the same or similar name and branding as CentOS and use that momentum ?
 
-Strangely enough, CentOS name and branding are currently owned by Red Hat. While it is true that it would have been great to be able to keep using CentOS name and branding to avoid confusing our users, we do not want to get into any legal issues.
+CentOS trademarks (e.g.: name, logs, etc) have been owned by Red Hat since the project's acquisition in 2014.
+
+While it is true that it would have been great to be able to keep using CentOS name and branding to avoid confusing our users, we do not want to get into any legal issues.
 
 We also believe "Rocky" name provides a good picture aligned to our main driver: being a solid and trustworthy distro (and cheap and available as just a simple rock).
 
